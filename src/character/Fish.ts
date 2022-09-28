@@ -40,7 +40,9 @@ class Fish extends BaseCharacter implements IPoolObject{
 		t.draw()
 		if(obj.filterFunc){
 			t._img.filters = [obj.filterFunc()]
+			
 		}
+		t._img.cacheAsBitmap = true
 		t.rotation = -90
 		t.moveData = new MoveData()
 		t.moveData.setData(t.rotation, t._speed)
@@ -91,7 +93,7 @@ class Fish extends BaseCharacter implements IPoolObject{
 
 		t._shp = sp
 		t._img = img
-		t._particle = ptc
+		// t._particle = ptc
 		t._white = white
 	}
 

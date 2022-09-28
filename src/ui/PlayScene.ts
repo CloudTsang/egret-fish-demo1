@@ -49,11 +49,11 @@ class PlayScene extends eui.Component{
 		t.spIndex = 0
 
 		//test 
-		// t.sppanel.pState = WeaponState.NORMAL
-		// const f = FishPool.instance.getOne()
-		// f.x = 500
-		// f.y = 300
-		// t.addChild(f)
+		t.sppanel.pState = WeaponState.NORMAL
+		const f = FishPool.instance.getOne()
+		f.x = 500
+		f.y = 300
+		t.addChild(f)
 
 		// const f2 = FishPool.instance.getOne()
 		// f2.x = 1000
@@ -74,6 +74,7 @@ class PlayScene extends eui.Component{
 		for(let f of FishPool.instance.arr){
 			if(f.activate){
 				fishNum ++
+				
 				f.refresh()
 				f.refreshCollisionPoints()
 			} 
