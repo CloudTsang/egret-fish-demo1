@@ -1,0 +1,235 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,description_json,43a048_png,795548_png,aa47bc_png,c0ca33_png,canon_png,d50000_png,ff6f00_png,ffc107_png,laser_png,missle_png,pint_png,yoyo_png,fishParticle_json,bullet_png,bullet_mp3,yoyop_png,blast_png,bgs_railgun_mp3,misslep_png,explode_mp3,yoyo_mp3",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "43a048_png",
+			"type": "image",
+			"url": "assets/43a048.png"
+		},
+		{
+			"name": "795548_png",
+			"type": "image",
+			"url": "assets/795548.png"
+		},
+		{
+			"name": "aa47bc_png",
+			"type": "image",
+			"url": "assets/aa47bc.png"
+		},
+		{
+			"name": "c0ca33_png",
+			"type": "image",
+			"url": "assets/c0ca33.png"
+		},
+		{
+			"name": "canon_png",
+			"type": "image",
+			"url": "assets/canon.png"
+		},
+		{
+			"name": "d50000_png",
+			"type": "image",
+			"url": "assets/d50000.png"
+		},
+		{
+			"name": "ff6f00_png",
+			"type": "image",
+			"url": "assets/ff6f00.png"
+		},
+		{
+			"name": "ffc107_png",
+			"type": "image",
+			"url": "assets/ffc107.png"
+		},
+		{
+			"name": "laser_png",
+			"type": "image",
+			"url": "assets/laser.png"
+		},
+		{
+			"name": "missle_png",
+			"type": "image",
+			"url": "assets/missle.png"
+		},
+		{
+			"name": "pint_png",
+			"type": "image",
+			"url": "assets/pint.png"
+		},
+		{
+			"name": "yoyo_png",
+			"type": "image",
+			"url": "assets/yoyo.png"
+		},
+		{
+			"name": "fishParticle_json",
+			"type": "json",
+			"url": "assets/fishParticle.json"
+		},
+		{
+			"name": "bullet_png",
+			"type": "image",
+			"url": "assets/bullet.png"
+		},
+		{
+			"name": "bullet_mp3",
+			"type": "sound",
+			"url": "assets/bullet.mp3"
+		},
+		{
+			"name": "yoyop_png",
+			"type": "image",
+			"url": "assets/yoyop.png"
+		},
+		{
+			"name": "blast_png",
+			"type": "image",
+			"url": "assets/blast.png"
+		},
+		{
+			"name": "bgs_railgun_mp3",
+			"type": "sound",
+			"url": "assets/bgs_railgun.mp3"
+		},
+		{
+			"name": "misslep_png",
+			"type": "image",
+			"url": "assets/misslep.png"
+		},
+		{
+			"name": "explode_mp3",
+			"type": "sound",
+			"url": "assets/explode.mp3"
+		},
+		{
+			"name": "yoyo_mp3",
+			"type": "sound",
+			"url": "assets/yoyo.mp3"
+		}
+	]
+}

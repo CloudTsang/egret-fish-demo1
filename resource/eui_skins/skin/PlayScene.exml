@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.PlayScene"
+	 width="1920"
+	height="1080" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+	<e:Rect percentHeight="100" percentWidth="100" fillColor="0x73A3D1"/>
+	<e:Group id="layer" percentHeight="100" percentWidth="100"/>
+	<e:Group id="area" percentWidth="100" height="850"/>
+	<ns1:SpWeaponPanel id="sppanel" bottom="30" right="30"/>
+	<e:Group  bottom="10" left="10">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" verticalAlign="bottom"/>
+		</e:layout>
+		<e:Label text="SCORE   "  scaleX="1" scaleY="1" size="45" italic="true" bold="true" textColor="0x000000"/>
+		<e:Label id="txtScore" text="0" scaleX="1" scaleY="1" size="60" textColor="0x000000" bold="true" italic="true"/>
+	</e:Group>
+	<ns1:Canon id="canon" width="160" height="200" source="canon_png" anchorOffsetX="80" anchorOffsetY="150"/>
+</e:Skin>

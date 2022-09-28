@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="skins.sppanel"
+    width="400" height="260"
+	 width.normal="500" height.normal="260" 
+     xmlns:e="http://ns.egret.com/eui" states="normal,laser,missle,yoyo" >
+	<e:Rect percentHeight="100" percentWidth="100"  fillAlpha="0.8" ellipseWidth="50" ellipseHeight="50" touchEnabled="false"/>
+	<e:Group percentWidth="100" bottom="10"  touchChildren="true" touchThrough="true"> 
+		<e:Group  includeIn="normal,laser" touchChildren="true" touchThrough="true">
+			<e:Image id="btnLaser" width="120" height="120"  scaleX="1" scaleY="1" source="laser_png" horizontalCenter="0" verticalCenter="0" touchEnabled="true"/>
+            <e:Rect id="gaugeLaser" width="120" height="120" visible="false" fillAlpha="0" strokeWeight="5" ellipseWidth="1000" ellipseHeight="1000" strokeColor="0xECC806" touchEnabled="false" touchChildren="false" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+        <e:Group  includeIn="normal,missle" touchChildren="true" touchThrough="true">
+			<e:Image id="btnMissle" width="120" height="120"  scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="missle_png" touchEnabled="true"/>
+			<e:Rect id="gaugeMissle" width="120" height="120" visible="false" fillAlpha="0" strokeWeight="5" ellipseWidth="1000" ellipseHeight="1000" strokeColor="0xECC806" touchEnabled="false" touchChildren="false" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+        <e:Group  includeIn="normal,yoyo" touchChildren="true" touchThrough="true">
+			<e:Image id="btnYoyo" width="120" height="120"  scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" source="yoyo_png" touchEnabled="true"/>
+            <e:Rect id="gaugeYoyo" width="120" height="120" visible="false" fillAlpha="0" strokeWeight="5" ellipseWidth="1000" ellipseHeight="1000" strokeColor="0xECC806" touchEnabled="false" touchChildren="false" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="20"/>
+		</e:layout>
+	</e:Group>
+	<e:Label text="获得分数奖励\n点击选择特殊武器" 
+    text.laser="迅速滑动后松开\n朝滑动方向发射\n持续一段时间的激光" 
+    text.missle="迅速滑动后松开\n朝滑动方向发射\n造成范围爆炸的炮弹" 
+    text.yoyo="迅速滑动后松开\n朝滑动方向发射\n可重复使用的铁刺球" 
+    percentWidth="90" horizontalCenter="0" top="20" textAlign="center" wordWrap="false" size="30" size.normal="42" touchEnabled="false"/>
+	<e:Image id="pint" width="40" height="100"  source="pint_png" anchorOffsetX="20" anchorOffsetY="20" includeIn="normal" touchEnabled="false"/>
+</e:Skin>
