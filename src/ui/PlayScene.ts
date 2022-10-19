@@ -126,6 +126,8 @@ class PlayScene extends eui.Component{
 				f.x = t.width + 100
 				f.y = Math.floor(Math.random()*300)+200
 				t.addChild(f)
+				f.img.cacheAsBitmap = true
+				// f.cacheAsBitmap = true
 			}
 		}
 	}

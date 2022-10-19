@@ -5,6 +5,7 @@ class Fish extends BaseCharacter implements IPoolObject{
 	private _score:number
 	private _size:number
 	private _img:egret.Bitmap
+	private _imgContainer:egret.Sprite
 	private _imgUrl:string
 	private _filter:egret.GlowFilter
 	private _rate:number
@@ -40,9 +41,10 @@ class Fish extends BaseCharacter implements IPoolObject{
 		t.draw()
 		if(obj.filterFunc){
 			t._img.filters = [obj.filterFunc()]
-			
 		}
 		t._img.cacheAsBitmap = true
+		t._imgContainer.cacheAsBitmap = true
+		
 		t.rotation = -90
 		t.moveData = new MoveData()
 		t.moveData.setData(t.rotation, t._speed)
@@ -81,8 +83,10 @@ class Fish extends BaseCharacter implements IPoolObject{
 		sp.graphics.drawRect(0,0,img.width, img.height)
 		sp.graphics.endFill()
 		t.addChild(sp)
-		t.addChild(img)
-		
+
+		const ct = new egret.Sprite()
+		t.addChild(ct)
+		ct.addChild(img)
 
 		const white = new egret.Shape()
 		white.graphics.beginFill(0xFFFFFF, 0.8)
@@ -93,8 +97,10 @@ class Fish extends BaseCharacter implements IPoolObject{
 
 		t._shp = sp
 		t._img = img
+		t._imgContainer = ct
 		// t._particle = ptc
 		t._white = white
+		
 	}
 
 	public refresh(){
@@ -189,6 +195,10 @@ class Fish extends BaseCharacter implements IPoolObject{
 	/**是否处于无敌 */
 	public get invisible(){
 		return this._white.visible
+	}
+
+	public get img(){
+		return this._img
 	}
 }
 
